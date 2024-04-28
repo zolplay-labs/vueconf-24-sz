@@ -5,6 +5,6 @@ export default defineComponent({
     useSeoMeta({});
   },
   render() {
-    return <h1 class={'text-5xl'}>Hello vue</h1>;
+    return <h1 class={'text-5xl font-bold text-vue-green'}>VueConf</h1>;
   },
 });
