@@ -1,5 +1,6 @@
 import BackgroundGradient from '~/components/BackgroundGradient.vue'
 import Hero from '~/components/layout/Hero.vue'
+import Countdown from '~/components/layout/Countdown.vue'
 
 export default defineComponent({
   setup() {
@@ -23,6 +24,7 @@ export default defineComponent({
       <BackgroundGradient />
 
       <Hero />
+      <Countdown />
     </div>
   },
 });

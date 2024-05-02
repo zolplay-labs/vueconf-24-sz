@@ -26,3 +26,7 @@ body {
   font-feature-settings: "salt", "calt", "ss02", "zero";
   @apply bg-zinc-900;
 }
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}

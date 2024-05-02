@@ -4,11 +4,11 @@ import TicketQR from '~/components/TicketQR.vue'
 
 <template>
   <header id="hero" class="relative min-h-screen overflow-hidden">
-    <div class="absolute bottom-0 inset-x-0">
-      <ShenzhenSkyline class="h-[28vh] md:h-[52vh] mx-auto -translate-x-[8vh] md:-translate-x-10 pointer-events-none" />
+    <div class="absolute bottom-0 inset-x-0 mix-blend-overlay">
+      <ShenzhenSkyline class="h-[28vh] md:h-[clamp(280px,52vh,450px)] mx-auto -translate-x-[8vh] md:-translate-x-10 pointer-events-none" />
     </div>
 
-    <div class="pt-4 md:pt-24 max-w-3xl mx-auto relative h-[85vh] md:h-[max(60vh,433px)] grid grid-cols-4 grid-rows-4 md:grid-cols-10 md:grid-rows-10 gap-1 md:gap-2">
+    <div class="pt-4 md:pt-24 max-w-3xl mx-auto relative h-[85vh] md:h-[clamp(400px,60vh,470px)] grid grid-cols-4 grid-rows-4 md:grid-cols-10 md:grid-rows-10 gap-1 md:gap-2">
       <div id="lines" class="absolute inset-0 opacity-80 pointer-events-none">
         <svg class="absolute left-0 translate-x-4 md:translate-x-0 top-0 h-full" width="1" viewBox="0 0 1 623" fill="none" xmlns="http://www.w3.org/2000/svg">
           <line x1="0.5" y1="2.18557e-08" x2="0.499973" y2="623" stroke="url(#paint0_linear_4_1494)" stroke-dasharray="6 6" />
