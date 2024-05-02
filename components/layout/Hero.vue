@@ -108,12 +108,12 @@ import TicketQR from '~/components/TicketQR.vue'
         <span class="text-zinc-300 text-sm">
           Scan QR Code in WeChat
         </span>
-        <div class="w-full flex justify-center opacity-50 my-4">
+        <div class="w-full flex md:hidden justify-center opacity-50 my-4">
           <span class="text-sm">或</span>
         </div>
         <a
           href="https://www.fequan.com/m_weixin/activity/buy_ticket?activity_id=28"
-          class="border border-vue-green border-dashed bg-green-500/10 text-zinc-100 w-full py-2 text-center flex gap-1.5 justify-center items-center"
+          class="border border-vue-green border-dashed bg-green-500/10 text-zinc-100 w-full py-2 text-center flex md:hidden gap-1.5 justify-center items-center"
         >
           前往购票
           <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M19 19H5V5h7V3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14c1.1 0 2-.9 2-2v-7h-2zM14 3v2h3.59l-9.83 9.83l1.41 1.41L19 6.41V10h2V3z" /></svg>
