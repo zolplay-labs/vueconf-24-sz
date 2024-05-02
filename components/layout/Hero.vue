@@ -53,7 +53,7 @@ import TicketQR from '~/components/TicketQR.vue'
       </div>
 
       <div class="col-[1/5] row-[1/2] md:col-[1/6] md:row-[1/7] flex flex-col items-center justify-center relative">
-        <svg class="w-[calc(48rem+10rem)] absolute bottom-0 -translate-x-[6rem]" height="1" viewBox="0 0 1258 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg class="w-[calc(48rem+10rem)] absolute bottom-0 left-0 -translate-x-[6rem]" height="1" viewBox="0 0 1258 1" fill="none" xmlns="http://www.w3.org/2000/svg">
           <line x1="4.37114e-08" y1="0.5" x2="1258" y2="0.50011" stroke="white" stroke-opacity="0.15" stroke-dasharray="8 8" />
         </svg>
 
@@ -65,7 +65,7 @@ import TicketQR from '~/components/TicketQR.vue'
         </h2>
       </div>
 
-      <div class="col-[1/5] row-[2/3] md:col-[1/6] md:row-[7/11] flex flex-col justify-center items-start pl-4">
+      <div class="col-[1/5] row-[2/3] md:col-[1/6] md:row-[7/11] flex flex-col justify-center items-center md:items-start md:pl-4">
         <time datetime="2024-07-06" class="font-medium text-[3rem]/10 md:text-[2.5rem]/9 text-zinc-300">
           2024.07.06
         </time>
