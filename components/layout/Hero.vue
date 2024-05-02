@@ -103,7 +103,7 @@ import TicketQR from '~/components/TicketQR.vue'
         <TicketQR class="size-40" />
       </div>
 
-      <div class="col-[1/5] row-[3/4] md:col-[8/11] md:row-[7/11] px-4 md:px-0 flex flex-col justify-center items-center">
+      <div class="col-[1/5] row-[3/4] md:col-[8/11] md:row-[7/11] px-4 md:px-0 flex flex-col justify-start md:justify-center items-center">
         <span class="text-zinc-200 text-[1.7rem]/7 tracking-tight hidden md:block">微信扫码购票</span>
         <span class="text-zinc-300 text-sm hidden md:block">
           Scan QR Code in WeChat
