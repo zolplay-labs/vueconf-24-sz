@@ -74,7 +74,7 @@ import TicketQR from '~/components/TicketQR.vue'
         </p>
       </div>
 
-      <div class="hidden md:col-[6/8] md:row-[1/11] md:relative">
+      <div class="hidden md:col-[6/8] md:row-[1/11] md:block relative">
         <svg class="absolute left-6 md:left-0 -top-20 h-[calc(100%+10rem)]" width="1" viewBox="0 0 1 513" fill="none" xmlns="http://www.w3.org/2000/svg">
           <line x1="0.5" y1="2.18557e-08" x2="0.499978" y2="513" stroke="url(#paint0_linear_5_1531)" stroke-opacity="0.25" stroke-dasharray="6 6" />
           <defs>
@@ -86,7 +86,7 @@ import TicketQR from '~/components/TicketQR.vue'
             </linearGradient>
           </defs>
         </svg>
-        <svg class="absolute right-6 md:right-0 opacity-50 -top-24 h-[calc(100%+10rem)]" width="1" viewBox="0 0 1 513" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg class="absolute right-0 opacity-50 -top-24 h-[calc(100%+10rem)]" width="1" viewBox="0 0 1 513" fill="none" xmlns="http://www.w3.org/2000/svg">
           <line x1="0.5" y1="2.18557e-08" x2="0.499978" y2="513" stroke="url(#paint0_linear_5_1531)" stroke-opacity="0.25" stroke-dasharray="6 6" />
           <defs>
             <linearGradient id="paint0_linear_5_1531" x1="-0.5" y1="-2.18557e-08" x2="-0.500022" y2="513" gradientUnits="userSpaceOnUse">
@@ -120,8 +120,8 @@ import TicketQR from '~/components/TicketQR.vue'
         </a>
       </div>
 
-      <div class="absolute -left-16 top-8">
-        <img src="~/assets/vue-badge.png" alt="Vue Badge" class="size-16">
+      <div class="absolute bottom-[10vh] inset-x-0 flex items-center justify-center md:block md:-left-16 md:top-8">
+        <img src="~/assets/vue-badge.png" alt="Vue Badge" class="size-20 md:size-16">
       </div>
     </div>
   </header>
