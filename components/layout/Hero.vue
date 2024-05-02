@@ -70,7 +70,7 @@ import TicketQR from '~/components/TicketQR.vue'
           2024.07.06
         </time>
         <p class="text-zinc-400 text-[1.05rem] tracking-tight">
-          官方主办为全球 <span class="text-vue-green">Vue.js</span> 开发者带来一场技术盛宴。
+          官方主办为全球 <a href="https://vuejs.org" target="_blank" class="underline text-vue-green">Vue.js</a> 开发者带来一场技术盛宴。
         </p>
       </div>
 
