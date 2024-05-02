@@ -4,8 +4,8 @@ import TicketQR from '~/components/TicketQR.vue'
 
 <template>
   <header id="hero" class="relative min-h-screen overflow-hidden">
-    <div class="absolute bottom-0 inset-x-0 mix-blend-overlay">
-      <ShenzhenSkyline class="h-[28vh] md:h-[clamp(280px,52vh,450px)] mx-auto -translate-x-[8vh] md:-translate-x-10 pointer-events-none" />
+    <div class="absolute bottom-0 inset-x-0 mix-blend-overlay overflow-hidden">
+      <ShenzhenSkyline class="h-[28vh] md:h-[clamp(280px,52vh,450px)] mx-auto -translate-x-[7.5vh] md:-translate-x-10 pointer-events-none" />
     </div>
 
     <div class="pt-4 md:pt-24 max-w-3xl mx-auto relative h-[85vh] md:h-[clamp(400px,60vh,470px)] grid grid-cols-4 grid-rows-4 md:grid-cols-10 md:grid-rows-10 gap-1 md:gap-2">
@@ -52,24 +52,24 @@ import TicketQR from '~/components/TicketQR.vue'
         </svg>
       </div>
 
-      <div class="col-[1/5] row-[1/2] md:col-[1/6] md:row-[1/7] flex flex-col items-center justify-center relative">
+      <div class="col-[1/5] row-[1/2] md:col-[1/6] md:row-[1/7] flex flex-col items-start justify-center relative pl-6 md:pl-4">
         <svg class="w-[calc(48rem+10rem)] absolute bottom-0 left-0 -translate-x-[6rem]" height="1" viewBox="0 0 1258 1" fill="none" xmlns="http://www.w3.org/2000/svg">
           <line x1="4.37114e-08" y1="0.5" x2="1258" y2="0.50011" stroke="white" stroke-opacity="0.15" stroke-dasharray="8 8" />
         </svg>
 
-        <h1 class="text-[5.8rem]/[7rem] font-bold text-vue-green mix-blend-plus-lighter tracking-tight">
+        <h1 class="text-[21.5vw]/[23vw] md:text-[5.8rem]/[7rem] font-bold text-vue-green mix-blend-plus-lighter tracking-tight">
           VueConf
         </h1>
-        <h2 class="text-[3.2rem]/[4.5rem] font-medium tracking-tight">
+        <h2 class="text-[12vw]/[12vw] md:text-[3.2rem]/[4.5rem] font-medium tracking-tight">
           Shenzhen / 深圳
         </h2>
       </div>
 
-      <div class="col-[1/5] row-[2/3] md:col-[1/6] md:row-[7/11] flex flex-col justify-center items-center md:items-start md:pl-4">
-        <time datetime="2024-07-06" class="font-medium text-[3rem]/10 md:text-[2.5rem]/9 text-zinc-300">
+      <div class="col-[1/5] row-[2/3] md:col-[1/6] md:row-[7/11] flex flex-col justify-center items-start px-6 md:px-4 space-y-4 md:space-y-2">
+        <time datetime="2024-07-06" class="font-medium text-[2rem]/7 md:text-[2.5rem]/9 text-zinc-300">
           2024.07.06
         </time>
-        <p class="text-zinc-400 text-[1.05rem] tracking-tight">
+        <p class="text-zinc-400 text-base tracking-tight text-balance">
           官方主办为全球 <a href="https://vuejs.org" target="_blank" class="underline text-vue-green">Vue.js</a> 开发者带来一场技术盛宴。
         </p>
       </div>
@@ -99,28 +99,25 @@ import TicketQR from '~/components/TicketQR.vue'
         </svg>
       </div>
 
-      <div class="col-[1/3] row-[3/4] md:col-[8/11] md:row-[1/7] flex items-center justify-center">
+      <div class="md:col-[8/11] md:row-[1/7] hidden md:flex items-center justify-center">
         <TicketQR class="size-40" />
       </div>
 
-      <div class="col-[3/5] row-[3/4] md:col-[8/11] md:row-[7/11] px-4 md:px-0 flex flex-col justify-center items-center">
-        <span class="text-zinc-200 text-[1.7rem]/7 tracking-tight">微信扫码购票</span>
-        <span class="text-zinc-300 text-sm">
+      <div class="col-[1/5] row-[3/4] md:col-[8/11] md:row-[7/11] px-4 md:px-0 flex flex-col justify-center items-center">
+        <span class="text-zinc-200 text-[1.7rem]/7 tracking-tight hidden md:block">微信扫码购票</span>
+        <span class="text-zinc-300 text-sm hidden md:block">
           Scan QR Code in WeChat
         </span>
-        <div class="w-full flex md:hidden justify-center opacity-50 my-4">
-          <span class="text-sm">或</span>
-        </div>
         <a
           href="https://www.fequan.com/m_weixin/activity/buy_ticket?activity_id=28"
-          class="border border-vue-green border-dashed bg-green-500/10 text-zinc-100 w-full py-2 text-center flex md:hidden gap-1.5 justify-center items-center"
+          class="border-2 border-vue-green border-dashed bg-green-500/10 text-zinc-100 w-full py-2 text-center flex md:hidden gap-1.5 justify-center items-center h-20 text-xl font-bold tracking-tight"
         >
           前往购票
           <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M19 19H5V5h7V3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14c1.1 0 2-.9 2-2v-7h-2zM14 3v2h3.59l-9.83 9.83l1.41 1.41L19 6.41V10h2V3z" /></svg>
         </a>
       </div>
 
-      <div class="absolute bottom-[10vh] inset-x-0 flex items-center justify-center md:block md:-left-16 md:top-8">
+      <div class="absolute bottom-[10vh] inset-x-0 flex items-center justify-center hidden md:block md:-left-16 md:top-8">
         <img src="~/assets/vue-badge.png" alt="Vue Badge" class="size-20 md:size-16">
       </div>
     </div>
