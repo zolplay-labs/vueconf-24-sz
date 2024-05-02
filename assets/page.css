@@ -1,0 +1,7 @@
+html, body {
+  color-scheme: dark;
+}
+
+::selection {
+  @apply bg-vue-green/70 text-zinc-50;
+}
