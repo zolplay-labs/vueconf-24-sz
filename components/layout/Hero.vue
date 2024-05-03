@@ -5,17 +5,17 @@ import TicketQR from '~/components/TicketQR.vue'
 <template>
   <header id="hero" class="relative min-h-screen overflow-hidden">
     <div class="absolute bottom-0 inset-x-0 mix-blend-overlay overflow-hidden">
-      <ShenzhenSkyline class="h-[28vh] md:h-[clamp(280px,52vh,450px)] mx-auto -translate-x-[7.5vh] md:-translate-x-10 pointer-events-none" />
+      <ShenzhenSkyline class="w-[120vw] md:w-auto md:h-[clamp(280px,52vh,450px)] mx-auto -translate-x-[15vw] md:-translate-x-10 pointer-events-none" />
     </div>
 
     <div class="pt-4 md:pt-24 max-w-3xl mx-auto relative h-[85vh] md:h-[clamp(400px,60vh,470px)] grid grid-cols-4 grid-rows-4 md:grid-cols-10 md:grid-rows-10 gap-1 md:gap-2">
-      <div id="lines" class="absolute inset-0 opacity-80 pointer-events-none">
+      <div id="lines" class="absolute inset-0 pointer-events-none mix-blend-plus-lighter">
         <svg class="absolute left-0 translate-x-4 md:translate-x-0 top-0 h-full" width="1" viewBox="0 0 1 623" fill="none" xmlns="http://www.w3.org/2000/svg">
           <line x1="0.5" y1="2.18557e-08" x2="0.499973" y2="623" stroke="url(#paint0_linear_4_1494)" stroke-dasharray="6 6" />
           <defs>
             <linearGradient id="paint0_linear_4_1494" x1="-0.5" y1="-2.18557e-08" x2="-0.500027" y2="623" gradientUnits="userSpaceOnUse">
-              <stop stop-color="#2CE27E" stop-opacity="0.35" />
-              <stop offset="1" stop-color="#2CE27E" stop-opacity="0.05" />
+              <stop stop-color="var(--grid-color)" stop-opacity="0.35" />
+              <stop offset="1" stop-color="var(--grid-color)" stop-opacity="0.05" />
             </linearGradient>
           </defs>
         </svg>
@@ -23,8 +23,8 @@ import TicketQR from '~/components/TicketQR.vue'
           <line x1="4.37114e-08" y1="0.5" x2="1255" y2="0.50011" stroke="url(#paint0_linear_4_1490)" stroke-dasharray="8 8" />
           <defs>
             <linearGradient id="paint0_linear_4_1490" x1="-4.37114e-08" y1="1.5" x2="1255" y2="1.50011" gradientUnits="userSpaceOnUse">
-              <stop stop-color="#2CE27E" stop-opacity="0.35" />
-              <stop offset="1" stop-color="#2CE27E" stop-opacity="0.15" />
+              <stop stop-color="var(--grid-color)" stop-opacity="0.35" />
+              <stop offset="1" stop-color="var(--grid-color)" stop-opacity="0.15" />
             </linearGradient>
           </defs>
         </svg>
@@ -32,7 +32,7 @@ import TicketQR from '~/components/TicketQR.vue'
           <line x1="0.5" y1="2.18557e-08" x2="0.499978" y2="511" stroke="url(#paint0_linear_4_1492)" stroke-opacity="0.25" stroke-dasharray="6 6" />
           <defs>
             <linearGradient id="paint0_linear_4_1492" x1="-0.5" y1="-2.18557e-08" x2="-0.500022" y2="511" gradientUnits="userSpaceOnUse">
-              <stop stop-color="#2CE27E" stop-opacity="0" />
+              <stop stop-color="var(--grid-color)" stop-opacity="0" />
               <stop offset="0.192787" stop-color="#28CE73" stop-opacity="0.9" />
               <stop offset="0.908517" stop-color="#28CE73" stop-opacity="0.9" />
               <stop offset="1" stop-color="#28CE73" stop-opacity="0" />
@@ -43,10 +43,10 @@ import TicketQR from '~/components/TicketQR.vue'
           <line x1="-4.37114e-08" y1="0.5" x2="1255" y2="0.49989" stroke="url(#paint0_linear_4_1493)" stroke-dasharray="8 8" />
           <defs>
             <linearGradient id="paint0_linear_4_1493" x1="4.37114e-08" y1="1.5" x2="1255" y2="1.49989" gradientUnits="userSpaceOnUse">
-              <stop stop-color="#2CE27E" stop-opacity="0.05" />
-              <stop offset="0.0964324" stop-color="#2CE27E" stop-opacity="0.35" />
-              <stop offset="0.696046" stop-color="#2CE27E" stop-opacity="0.05" />
-              <stop offset="1" stop-color="#2CE27E" stop-opacity="0.11" />
+              <stop stop-color="var(--grid-color)" stop-opacity="0.05" />
+              <stop offset="0.0964324" stop-color="var(--grid-color)" stop-opacity="0.35" />
+              <stop offset="0.696046" stop-color="var(--grid-color)" stop-opacity="0.05" />
+              <stop offset="1" stop-color="var(--grid-color)" stop-opacity="0.11" />
             </linearGradient>
           </defs>
         </svg>
@@ -79,7 +79,7 @@ import TicketQR from '~/components/TicketQR.vue'
           <line x1="0.5" y1="2.18557e-08" x2="0.499978" y2="513" stroke="url(#paint0_linear_5_1531)" stroke-opacity="0.25" stroke-dasharray="6 6" />
           <defs>
             <linearGradient id="paint0_linear_5_1531" x1="-0.5" y1="-2.18557e-08" x2="-0.500022" y2="513" gradientUnits="userSpaceOnUse">
-              <stop stop-color="#2CE27E" stop-opacity="0" />
+              <stop stop-color="var(--grid-color)" stop-opacity="0" />
               <stop offset="0.192787" stop-color="#28CE73" stop-opacity="0.7" />
               <stop offset="0.908517" stop-color="#28CE73" stop-opacity="0.55" />
               <stop offset="1" stop-color="#28CE73" stop-opacity="0" />
@@ -90,7 +90,7 @@ import TicketQR from '~/components/TicketQR.vue'
           <line x1="0.5" y1="2.18557e-08" x2="0.499978" y2="513" stroke="url(#paint0_linear_5_1531)" stroke-opacity="0.25" stroke-dasharray="6 6" />
           <defs>
             <linearGradient id="paint0_linear_5_1531" x1="-0.5" y1="-2.18557e-08" x2="-0.500022" y2="513" gradientUnits="userSpaceOnUse">
-              <stop stop-color="#2CE27E" stop-opacity="0" />
+              <stop stop-color="var(--grid-color)" stop-opacity="0" />
               <stop offset="0.192787" stop-color="#28CE73" stop-opacity="0.7" />
               <stop offset="0.908517" stop-color="#28CE73" stop-opacity="0.55" />
               <stop offset="1" stop-color="#28CE73" stop-opacity="0" />

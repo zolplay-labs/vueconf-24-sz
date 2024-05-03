@@ -29,7 +29,7 @@ export default defineComponent({
     });
   },
   render() {
-    return <div class="relative min-h-screen">
+    return <div class="relative min-h-screen [--grid-color:theme(colors.emerald.700)]">
       <BackgroundGradient />
 
       <Hero />
