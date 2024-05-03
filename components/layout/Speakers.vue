@@ -86,7 +86,7 @@ function getLogo(influence: string) {
     </header>
 
     <div v-for="(speaker, idx) in speakers" :key="speaker.name" class="relative col-span-1 aspect-square border border-dashed border-[--grid-color] z-20 transition-opacity"
-         :class="{ 'group-data-[focusing=true]:opacity-40': focusingSpeakerIdx !== idx }" @mouseenter="focusSpeaker(idx)" @mouseleave="focusSpeaker(null)">
+         :class="{ 'group-data-[focusing=true]:opacity-40': focusingSpeakerIdx !== idx }" @mouseenter="focusSpeaker(idx)" @mouseleave="focusSpeaker(null)" @click="focusSpeaker(idx)">
       <svg xmlns="http://www.w3.org/2000/svg" class="absolute inset-0" width="100%" height="100%">
         <defs>
           <filter id="filter">
