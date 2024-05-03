@@ -2,6 +2,7 @@ import BackgroundGradient from '~/components/BackgroundGradient.vue'
 import Hero from '~/components/layout/Hero.vue'
 import Countdown from '~/components/layout/Countdown.vue'
 import Speakers from '~/components/layout/Speakers.vue'
+import Footer from '~/components/layout/Footer.vue'
 
 export default defineComponent({
   setup() {
@@ -36,6 +37,8 @@ export default defineComponent({
       <Hero />
       <Speakers />
       <Countdown />
+
+      <Footer />
     </div>
   },
 });

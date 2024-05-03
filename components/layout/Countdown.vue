@@ -1,5 +1,5 @@
 <template>
-  <section class="my-12 h-[30vh] md:h-[clamp(320px,40vh,400px)] px-4 md:px-0 flex flex-col justify-center items-center max-w-3xl mx-auto grid grid-cols-4 grid-rows-2">
+  <section class="my-24 h-[30vh] md:h-[clamp(320px,40vh,400px)] px-4 md:px-0 flex flex-col justify-center items-center max-w-3xl mx-auto grid grid-cols-4 grid-rows-2">
     <header class="col-[1/5] row-[1/2] h-full flex justify-center items-center border border-dashed border-[--grid-color] border-b-0">
       <h2 class="text-5xl md:text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-vue-green to-zinc-500 tracking-tight mix-blend-plus-lighter">
         Countdown
