@@ -4,6 +4,8 @@ import Countdown from '~/components/layout/Countdown.vue'
 import Speakers from '~/components/layout/Speakers.vue'
 import Footer from '~/components/layout/Footer.vue'
 import Sponsors from '~/components/layout/Sponsors.vue'
+import Schedule from '~/components/layout/Schedule.vue'
+import Location from '~/components/layout/Location.vue'
 
 export default defineComponent({
   setup() {
@@ -38,6 +40,8 @@ export default defineComponent({
       <Hero />
       <Speakers />
       <Sponsors />
+      <Schedule />
+      <Location />
       <Countdown />
 
       <Footer />
